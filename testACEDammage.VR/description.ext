@@ -1,0 +1,18 @@
+respawn = 2;
+respawnDelay = 3;
+
+class CfgFunctions {
+  class SVT {
+    tag = "SVT";
+    class damage_log {
+        class addBodyPartsDescription {};
+        class addEHToUnit {};
+        class addWoundsDescription {};
+        class createHint {};
+        class createLog {};
+        class createLogDescription {};
+        class getACEMedicalParams {};
+        class startLogging {};
+    };
+  };
+};
