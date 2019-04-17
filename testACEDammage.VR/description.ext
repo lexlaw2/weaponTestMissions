@@ -5,13 +5,16 @@ class CfgFunctions {
   class SVT {
     tag = "SVT";
     class damage_log {
+        class addAmmoDescription {};
+        class addArmorDescription {};
         class addBodyPartsDescription {};
         class addEHToUnit {};
-        class addWoundsDescription {};
         class createHint {};
         class createLog {};
         class createLogDescription {};
-        class getACEMedicalParams {};
+        class getAmmoParams {};
+        class getArmorParams {};
+        class getDamageData {};
         class startLogging {};
     };
   };
